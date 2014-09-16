@@ -16,6 +16,6 @@ end
 Then(/^I should be able to select "([^"]*)" from the autocomplete list$/) do |option|
   on(AutocompletePage) do |page|
     page.autocomplete_unordered_list_element.list_item_element.when_visible
-    page.autocomplete_unordered_list_element.list_item_element(:text => "#{option}").click
+    page.autocomplete_unordered_list_element.list_item_element(text: "#{option}").click
   end
 end

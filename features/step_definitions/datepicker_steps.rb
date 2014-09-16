@@ -7,7 +7,6 @@ When(/^I select day "(\d+)"$/) do |day|
 end
 
 Then(/^the date should be "([^\"]*)"$/) do |day|
-  #on(DatepickerPage).datepicker_one.should == day
   expect(on(DatepickerPage).datepicker_one).to eql day
 end
 
