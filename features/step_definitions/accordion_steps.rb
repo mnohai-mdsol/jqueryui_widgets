@@ -15,9 +15,9 @@ Then /^the accordion labels should include "([^"]*)"$/ do |label|
 end
 
 Then /^the "([^"]*)" element should be selected$/ do |label|
-  expect(on(AccordionPage).accordion.selected?(label)).to be_true
+  expect(on(AccordionPage).accordion.selected?(label)).to be true
 end
 
 When /^the "([^"]*)" element should not be selected$/ do |label|
-  expect(on(AccordionPage).accordion.selected?(label)).to be_false
+  expect(on(AccordionPage).accordion.selected?(label)).to be false
 end
