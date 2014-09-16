@@ -1,5 +1,7 @@
 # jqueryui_widgets
 
+[![Build Status](https://travis-ci.org/mnohai-mdsol/jqueryui_widgets.svg?branch=master)](https://travis-ci.org/mnohai-mdsol/jqueryui_widgets)
+
 This is a ruby wrapper around some of the jQueryUI controls to make them easy to use with the [page-object gem](http://github.com/cheezy/page-object).
 
 ## Known Issues
